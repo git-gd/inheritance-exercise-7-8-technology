@@ -6,7 +6,7 @@ namespace Technology
 {
     public class Device : AbstractEntity
     {
-        public bool IsPoweredOn { get; set; } = false;
+        public bool IsPoweredOn { get; private set; } = false;
         public int DisplayWidth { get; private set; }
         public int DisplayHeight { get; private set; }
         public int CurrentStorage { get; private set; } = 0;
