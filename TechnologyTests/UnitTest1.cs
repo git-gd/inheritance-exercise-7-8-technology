@@ -29,7 +29,7 @@ namespace TechnologyTests
         }
 
         [TestMethod]
-        public void DeviceHeighConstructorSet()
+        public void DeviceHeightConstructorSet()
         {
             Assert.AreEqual(computer1.DisplayHeight, 768);
         }
